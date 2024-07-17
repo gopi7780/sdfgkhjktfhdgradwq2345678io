@@ -1,0 +1,194 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <style>
+   .one
+		{
+			display: flex;
+			justify-content: space-evenly;
+			background-color: lightblue;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+		}
+		.title
+		{
+			background-color: lightblue;
+			color: green;
+		}
+		.two
+		{
+			display: flex;
+		}
+		.three
+		{
+			display: flex;
+		}
+		.four
+		{
+			display: flex;
+		}
+		.kanna4
+        {
+            display: flex;
+        }
+  </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="one">
+		<div class="title" style="border-style: groove; color: rgb(0, 2, 1);">Home</div>
+		<div class="title"style="border-style: groove; color:black;">About us</div>
+		<div class="title" style="border-style: groove;color: rgb(0, 2, 1);">Files</div>
+        <div class="title"style="border-style: groove;color: rgb(0, 2, 1);">settings</div>
+	</div>
+	<div class="two">
+		<div style="width: 50%;background-color: pink; border-style: double;">
+            <img  src="sampleimg.jpeg" height="100%" width="100%" alt="gopi">
+        </div>
+		<div style="width: 50%;background-color: lightgreen; padding: 90x 100px; border-style:double;">
+            <p>‘ఓ యువతా మేల్కొనండి..
+                మీ లక్ష్యాన్ని సాధించేంత వరకు ఆగకండి’</p>
+                
+                ‘మీరు జీవించి ఉన్నంత కాలం నేర్చుకుంటూనే ఉండండి..
+                అనుభవమే ప్రపంచంలో మీకు ఉత్తమ గురువు’</p>
+        </div>
+	</div>
+	<div class="three">
+		<div style="width: 35%;background-color: rgb(249, 249, 253); border-style: double;">
+            <video src="https://videos.pexels.com/video-files/5896379/5896379-sd_360_640_24fps.mp4" height="420px" width="200px"  controls></video>
+        </div>
+		<div style="width: 35%;background-color: lightgoldenrodyellow; border-style: double;">
+            <video src="https://videos.pexels.com/video-files/5147455/5147455-hd_1080_1920_30fps.mp4"  height="420px" width="200px"controls></video>
+        </div>
+		<div style="width: 35%;background-color: rgb(249, 245, 245); border-style: double;">
+            <video src="https://videos.pexels.com/video-files/8859849/8859849-sd_360_640_25fps.mp4" height="420px" width="200px" controls></video>
+        </div>
+	</div>
+	<div class="four">
+		<div style="width: 25%;background-color: yellow;padding:  10px 40px; border-style: double;">
+            <form  style="text-align: center;" >
+                <h1>LOG IN</h1>
+                <INPUt type="email" placeholder="        ENTER EMAIL" name="email"></INPUt><br><br><br>
+                <INPUt type="password" placeholder="        ENTER PASSWORD"></INPUt><br><br><br>
+                <INPut type="datetime-local" placeholder="verify as human"></INPut><br><br><br><br><br>
+                <input type="submit"  value="Log In">
+
+
+            </form>
+        </div>
+		<div style="width: 25%;background-color: green;padding:20px 100px; border-style: double;">
+            <form style="text-align: center;"><h1>REGISTRATION</h1><BR><BR><BR></BR></BR></BR>
+                <INPUt type="text" placeholder="ENTER FIRST NAME "></INPUt><BR></BR>
+                <INPUt type="text" placeholder="ENTER LAST NAME "></INPUt><BR></BR>
+                <INPut type="email"placeholder="ENTER EMAIL"></INPut><BR></BR>
+                <INPut type="password" placeholder="ENTER PASSWORD "></INPut><BR></BR>
+                <INPUt type="password" placeholder="CONFIRM PASSWORD"></INPUt><BR></BR>
+                <SElect>
+                    <OPTIOn>SELECT THE COUNTRY</OPTIOn>
+                    <OPTION>INDIA</OPTION>
+                    <OPTION>USA</OPTION>
+                    <OPTION>UK</OPTION>
+                    <OPTION>AUSTRILIA</OPTION>
+                    <OPTION>CANADA</OPTION>
+                </SElect><BR></BR>
+               SELECT PASSPORT <INPUt type="radio" name="YES"></INPUt>YES
+               <INPUt type="radio" name="YES"></INPUt>NO <BR></BR>
+               <INput type="checkbox"></INput>I AGREE WITH TERMS AND CONDITIONS <BR></BR>
+               <INput type="submit" name="submit" value="submit"></INput>&nbsp;&nbsp;&nbsp;&nbsp;
+               <INPUt type="reset"></INPUt>
+            
+            </form>
+
+        </div>
+		<div style="width: 25%;background-color: blue;padding:50px; color: white; border-style: double;">
+           <h3 style="text-align: center;">biography</h3> <p>Vivekananda (born January 12, 1863, Calcutta [now Kolkata]—died July 4, 1902, near Calcutta) was a Hindu spiritual leader and reformer in India who attempted to combine Indian spirituality with Western material progress, maintaining that the two supplemented and complemented one another.</p>
+        </div>
+		<div style="width: 25%;background-color: hotpink;">
+            <img src="data:image/jpeg;base64,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" height="70px" width="75px">
+        </div>
+    </div>
+    <div class="kanna4">
+        <div style="width: 20%; border-style: double;color: aliceblue; background-color: orange;padding: 20px 40px";">
+            <table border="2" >
+                <tr>
+                    <th>name</th>
+                    <th>subject</th>
+                    <th>marks</th>
+                    
+                </tr>
+                <tr>
+                    <td>gopi</td>
+                    <td>os</td>
+                    <td>92</td>
+                    
+                </tr>
+                <tr>
+                    <td>kanna</td>
+                    <td>ds</td>
+                    <td>88</td>
+                    
+                </tr>
+                <tr>
+                    <td>zaheer</td>
+                    <td>pyton</td>
+                    <td>92</td>
+                    
+                </tr>
+                <tr>
+                    <td>motu</td>
+                    <td>mpmc</td>
+                    <td>90</td>
+                    
+                </tr>
+            </table>
+        </div>
+        <div style="width: 20%; border-style: double;color: aliceblue; background-color: rgb(21, 19, 18);padding: 90px 100px">
+            <ol type="A">
+                <li>SUBBARAO</li>
+                <li>GOPI</li>
+                <li>ZAHEER</li>
+                <li>MOTU</li>
+            </ol>
+        </div>
+        <div style="width: 20%; border-style: double;color: aliceblue; background-color: rgb(86, 76, 88);padding: 90px 100px">
+            <ul>
+                <li>apple</li>
+                <li>mango</li>
+                <li>cherry</li>
+                <li>banana</li>
+            </ul>
+        </div>
+        <div style="display:flex ;  border-style: dotted; width: 20%; background-color: rgb(81, 79, 77);padding: 50px 120px ">
+            <div style="border-style: double; color: aliceblue;">
+                <ol type="A">
+                    <li>SUBBARAO</li>
+                    <li>GOPI</li>
+                    <li>ZAHEER</li>
+                    <li>MOTU</li>
+                </ol>
+            
+                    
+                
+            </div>
+            
+            <div style="border-style: dotted; color: aliceblue;">
+                <ul>
+                    <li>apple</li>
+                    <li>mango</li>
+                    <li>cherry</li>
+                    <li>banana</li>
+                </ul>
+
+            </div>
+        </div>
+        
+        <div style="width: 20%; background-color: aqua;">
+
+            <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg" height="300px" width="400px">
+        </div>
+    </div>
+    <div style="background-color: burlywood; text-align: center;" >&copy;by KANNA-7780</div>
+    
+</body>
+</html>
